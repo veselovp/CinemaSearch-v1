@@ -1,0 +1,24 @@
+.cart {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: #112d49;
+  background-color: #fbfef9;
+}
+
+.cartText {
+
+}
+
+.cartPic {
+
+}
+
+.carYear {
+
+}

@@ -30,16 +30,18 @@ function App() {
   return (
     <div className="App">
       <Header text="Eto poisk filjmov" />
-      <div>
+      <Search search={search} />
+      <div className="menu">
         {loading && !errorMessage ? (
           <span>loading...</span>
         ) : errorMessage ? (
           <div className="errorMessage">{errorMessage}</div>
         ) : (
-          movies.map((movie, index) => <Movie movie={movie} />)
+          movies.map((movie, index) => (
+            <Movie key={`${index}-${movie.Title}`} movie={movie} />
+          ))
         )}
       </div>
-      <Search search={search} />
     </div>
   )
 }
