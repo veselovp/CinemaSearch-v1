@@ -1,7 +1,7 @@
-function Header() {
+function Header(props) {
   return (
     <>
-      <h2>this is header</h2>
+      <h2>{props.text}</h2>
     </>
   )
 }

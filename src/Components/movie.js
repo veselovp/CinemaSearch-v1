@@ -1,9 +1,5 @@
-function Movie() {
-  return (
-    <>
-      <h2>this is movie</h2>
-    </>
-  )
+function Movie({ movies }) {
+  return <></>
 }
 
 export default Movie
